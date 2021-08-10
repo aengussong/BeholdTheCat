@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Behold! The Cat</string>
     <string name="cat">Cat</string>
+    <string name="title_catsitting">Cat Sitting</string>
 </resources>

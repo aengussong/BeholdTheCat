@@ -1,14 +1,13 @@
-package com.aengussong.beholdthecat
+package com.aengussong.catsitting
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 import com.aengussong.beholdthecat.util.fullscreen
 
-class MainActivity : AppCompatActivity() {
-
+class SittingCatActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_sitting_cat)
 
         fullscreen()
     }
