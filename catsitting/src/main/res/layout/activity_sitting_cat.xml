@@ -6,10 +6,16 @@
     tools:context=".SittingCatActivity">
 
     <ImageView
-        android:src="@drawable/cat_sitting"
-        android:scaleType="centerCrop"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="@string/cat" />
+        android:contentDescription="@string/cat"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat_sitting" />
+
+    <Button
+        android:id="@+id/btnGoToCuriousCat"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Let's see curious cat" />
 
 </FrameLayout>
