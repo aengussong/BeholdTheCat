@@ -10,8 +10,10 @@ android {
         applicationId "com.aengussong.beholdthecat"
         minSdk 21
         targetSdk 31
-        versionCode 1002
-        versionName "1.0"
+        versionCode 1005 // instant app version
+//        versionCode 2005 // main version
+        versionName "0.1.1" // instant app version
+//        versionName "1.0.1" // main version
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -29,7 +31,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    dynamicFeatures = [':catsitting']
+    dynamicFeatures = [':catsitting', ':catcurious']
 }
 
 dependencies {

@@ -8,7 +8,9 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.36770833333333336" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.209375" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.221875" />
+        <entry key="catcurious/src/main/res/layout/activity_curious_cat.xml" value="0.17882472137791286" />
         <entry key="catsitting/src/main/res/layout/activity_main.xml" value="0.20572916666666666" />
+        <entry key="catsitting/src/main/res/layout/activity_sitting_cat.xml" value="0.17882472137791286" />
       </map>
     </option>
   </component>
