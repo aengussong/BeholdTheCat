@@ -6,11 +6,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.aengussong.catsitting"
         minSdk 21
-        targetSdk 31
-        versionCode 4
-        versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -21,6 +17,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    namespace 'com.aengussong.catsitting'
 }
 
 dependencies {
