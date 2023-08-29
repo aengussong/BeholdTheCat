@@ -1,0 +1,27 @@
+Privacy Policy for "Behold! The Cat"
+
+This Privacy Policy describes the privacy practices for the "Behold! The Cat" mobile application (the "App").
+
+No Collection of User Data
+
+Company ("we," "our," or "us") does not collect any personal information or data from users when you use the App. We respect your privacy, and you can use the App without providing any personal information.
+
+Usage Information
+
+The App may collect non-personal and non-identifiable usage information solely for the purpose of improving the App's functionality and performance. This information may include:
+
+    Device Information: We may collect information about the type of device you are using to access the App, such as the device model, operating system version, and device identifier.
+
+    App Usage: We may collect data on how you interact with the App, including the features you use and the duration of your usage.
+
+No Sharing of Information
+
+We do not share, sell, trade, or disclose any of the non-personal information collected by the App to third parties.
+
+Security
+
+We take reasonable measures to protect the non-personal information collected by the App. However, please be aware that no data transmission over the internet can be guaranteed as entirely secure, and we cannot ensure or warrant the security of any information you transmit to us.
+
+Changes to this Privacy Policy
+
+We may update this Privacy Policy from time to time. Any changes will be posted on this page, and the date of the latest revision will be indicated at the top. We encourage you to review this Privacy Policy periodically for any updates.
