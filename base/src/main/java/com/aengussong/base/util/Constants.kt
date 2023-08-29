@@ -1,4 +1,4 @@
-package com.aengussong.beholdthecat.util
+package com.aengussong.base.util
 
 const val BASE_URL = "https://10olegov.000webhostapp.com/"
 const val SITTING_PREFIX = "sitting"

@@ -4,7 +4,8 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.aengussong.beholdthecat.util.*
+import androidx.viewbinding.BuildConfig
+import com.aengussong.base.util.*
 import com.aengussong.catcurious.databinding.ActivityCuriousCatBinding
 import com.google.android.gms.instantapps.InstantApps
 import com.google.android.gms.instantapps.InstantApps.getPackageManagerCompat
@@ -12,7 +13,7 @@ import com.google.android.gms.instantapps.InstantApps.getPackageManagerCompat
 
 class CuriousCatActivity : AppCompatActivity() {
 
-    private lateinit var binding:ActivityCuriousCatBinding
+    private lateinit var binding: ActivityCuriousCatBinding
 
     private val catResultListener = seeCatForResult
 

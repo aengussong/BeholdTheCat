@@ -7,9 +7,16 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.aengussong.beholdthecat"
+        applicationId "com.aengussong.base"
         minSdk 21
         targetSdk 31
+        // those version codes are the result of testing how play console reacts to different versions
+        // of the instant app and full app, normally full app should have versionCode starting
+        // from 1000 and instant app should have versionCode started from 1
+//        versionCode 3005 // instant app version
+        versionCode 2006 // full version
+//        versionName "0.1.2" // instant app version
+        versionName "1.0.2" // full version
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -30,14 +37,16 @@ android {
     buildFeatures {
         viewBinding true
     }
+    dynamicFeatures = [':catsitting', ':catcurious']
 }
 
 dependencies {
-    implementation project(":base")
+
     implementation 'androidx.core:core-ktx:1.6.0'
     implementation 'androidx.appcompat:appcompat:1.3.1'
     implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+
+    api "com.google.android.gms:play-services-instantapps:17.0.1"
 
     testImplementation 'junit:junit:4.+'
 

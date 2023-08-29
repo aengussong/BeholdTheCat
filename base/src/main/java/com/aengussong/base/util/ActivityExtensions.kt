@@ -1,4 +1,4 @@
-package com.aengussong.beholdthecat.util
+package com.aengussong.base.util
 
 import android.app.Activity
 import android.content.Intent
@@ -9,7 +9,7 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
-import com.aengussong.beholdthecat.BuildConfig
+import com.aengussong.base.BuildConfig
 
 fun Activity.fullscreen() {
     with(WindowInsetsControllerCompat(window, window.decorView)) {

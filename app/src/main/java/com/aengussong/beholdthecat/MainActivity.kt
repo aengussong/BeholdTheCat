@@ -2,7 +2,7 @@ package com.aengussong.beholdthecat
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.aengussong.beholdthecat.util.fullscreen
+import com.aengussong.base.util.fullscreen
 
 class MainActivity : AppCompatActivity() {
 

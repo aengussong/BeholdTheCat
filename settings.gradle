@@ -10,3 +10,4 @@ rootProject.name = "Behold! The Cat"
 include ':app'
 include ':catsitting'
 include ':catcurious'
+include ':base'

@@ -3,7 +3,7 @@ package com.aengussong.catsitting
 import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.aengussong.beholdthecat.util.*
+import com.aengussong.base.util.*
 import com.aengussong.catsitting.databinding.ActivitySittingCatBinding
 
 class SittingCatActivity : AppCompatActivity() {
