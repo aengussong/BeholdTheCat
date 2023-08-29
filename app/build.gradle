@@ -30,6 +30,7 @@ android {
         jvmTarget = '1.8'
     }
     dynamicFeatures = [':catsitting']
+    namespace 'com.aengussong.beholdthecat'
 }
 
 dependencies {
